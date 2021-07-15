@@ -40,56 +40,62 @@ section {
   text-align: justify;
   color: gray;
 }
-.about {
+#about-img{
+  padding: 40px 30px 0px 150px;
+  vertical-align: middle;
+  width: 45%;
+}
+.about-background {
   color: rgb(84, 82, 82);
   background-image: url(images/about-background.jpg);
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
-
-.common-size img {
-  padding-left: 80px;
-  width: 45%;
-  padding-top: 30px;
-}
-.recipes {
-  width: 30%;
-  border-radius: 30px;
+.about-text{
+  padding: 50px 60px 30px 0px;
 }
 
-.text-1 {
-  padding-top: 50px;
-  padding-right: 80px;
-}
 
+.recipes-title h1{
+  font-weight: 800;
+}
 .recipes-title {
-  padding-left: 80px;
-  padding-right: 80px;
-  text-align: center;
-  color: gray;
+color: gray;
+text-align: center;
 }
 .recipes {
-  margin-left: 20px;
-  margin-right: 20px;
-  width: 350px;
-  padding: 10px;
-  border-radius: 10px;
-  box-shadow: 1px 1px 10px rgb(212, 219, 217);
-  text-align: justify;
+display: flex;
 }
-.recipes img {
-  width: 85%;
-  padding: 20px 20px;
+.recipe {
+padding: 15px;
+border-radius: 10px;
+box-shadow: 1px 1px 20px gray;
+margin: 30px;
 }
+.recipe p {
+text-align: justify;
+color: gray;
+
+}
+
+.recipe h3 {
+color: rgb(67, 63, 63);
+font-weight: 800;
+font-size: 18px;
+}
+.recipe-img img {
+width: 100%;
+height: 220px;
+border-radius: 10px;
+}
+
 .subscribes {
   box-shadow: 1px 1px 10px rgb(212, 219, 217);
-
   margin-bottom: 100px;
   margin-left: 70px;
   margin-right: 70px;
   padding-top: 20px;
   padding-bottom: 20px;
-
   border-radius: 20px;
 }
 .follow-part {
@@ -135,4 +141,7 @@ section {
 }
 .gray {
   color: gray;
+}
+.dark-gray{
+  color: rgb(96, 75, 75) ;
 }
